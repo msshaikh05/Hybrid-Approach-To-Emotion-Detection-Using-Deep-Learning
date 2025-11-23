@@ -1,1 +1,31 @@
+## 🎧 Speech Emotion Datasets Used
+
+### 1. RAVDESS (Ryerson Audio-Visual Database of Emotional Speech and Song)
+Official Link:
+https://zenodo.org/records/1188976
+
+Description:
+24 professional actors (12 male, 12 female) speaking two statements with 8 emotional classes.
+
+---
+
+### 2. TESS (Toronto Emotional Speech Set)
+Official Link:
+https://tspace.library.utoronto.ca/handle/1807/24487
+
+Description:
+Two female actresses (younger & older) speaking 200+ target words across 7 emotion categories.
+
+---
+
+### 3. CREMA-D (Crowd-Sourced Emotional Multimodal Actors Dataset)
+Official Link:
+https://github.com/CheyneyComputerScience/CREMA-D
+
+Alternate Link:
+https://www.kaggle.com/datasets/ejlok1/cremad
+
+Description:
+91 actors (48 male, 43 female) speaking 12 sentences in 6 emotions. Audio & video provided.
+
 
