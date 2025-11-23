@@ -1,0 +1,71 @@
+
+📘 25 Viva Questions – Text Sentiment Analysis (RNN)
+
+Conceptual & Theoretical
+1. What is sentiment analysis, and why is it important in NLP applications?
+2. Why did you choose sentiment/emotion classification instead of other NLP tasks?
+3. What is the difference between sentiment analysis and emotion detection?
+4. Why did you select RNN over traditional machine learning models for text sentiment analysis?
+5. How does an RNN handle sequential data differently from CNN or SVM?
+6. What challenges exist in sentiment analysis when working with natural language?
+7. Why is text preprocessing (like tokenization, stopword removal, stemming) necessary?
+8. What are word embeddings, and how are they different from one-hot encoding?
+9. Can you explain the vanishing gradient problem in RNNs?
+10. Why not use LSTM or GRU instead of a simple RNN?
+
+Dataset & Preprocessing
+11. Describe your dataset — size, labels, and distribution.
+12. How did you handle class imbalance in your dataset?
+13. Why did you choose four classes (Positive, Negative, Neutral, Irrelevant)?
+14. How did you preprocess your dataset for RNN training?
+15. How was the tokenizer and label encoder used in your pipeline?
+
+Model Training & Evaluation
+16. What architecture did you use for your RNN-based sentiment model?
+17. Why did you use Global Average Pooling in your architecture?
+18. What loss function and optimizer did you use, and why?
+19. What evaluation metrics did you use, and why not only accuracy?
+20. What challenges did you face in training the text sentiment model?
+
+Comparisons & Results
+21. Why did you also implement classical models like SVM, Naive Bayes, CNN?
+22. How does your RNN model’s accuracy compare with these classical models?
+23. What could be the reason RNN performs better/worse than CNN for text?
+24. How does your model handle ambiguous or sarcastic sentences?
+25. What improvements can you suggest for text sentiment analysis in future work?
+
+
+🎤 25 Viva Questions – Speech Emotion Recognition (RNN/LSTM)
+
+Conceptual & Theoretical
+1. What is speech emotion recognition, and why is it important?
+2. What are the main challenges in detecting emotions from speech?
+3. Why did you choose LSTM (RNN variant) for speech instead of CNN?
+4. What are MFCCs, and why are they widely used in audio feature extraction?
+5. What is the difference between MFCC, ZCR, and RMS features?
+6. How does noise in audio affect emotion recognition?
+7. Why did you choose 8 emotion classes?
+8. What is the temporal nature of speech signals, and how do RNNs exploit it?
+9. Why can’t traditional ML models perform as well as deep learning models on audio data?
+10. What role does normalization and padding play in speech preprocessing?
+
+Dataset & Preprocessing
+11. Describe the RAVDESS and TESS datasets used.
+12. How did you preprocess audio clips before feeding them into the model?
+13. Why did you apply trimming, normalization, and noise reduction?
+14. How did you decide the length of audio frames for padding?
+15. How did you handle sampling rate consistency across datasets?
+
+Model Training & Evaluation
+16. What architecture did you use for your LSTM-based speech model?
+17. What activation functions did you use in the output layer, and why?
+18. What optimizer and loss function were used for training?
+19. What were the major difficulties in training an audio-based deep learning model?
+20. How did you evaluate the performance of your speech emotion recognition model?
+
+Comparisons & Results
+21. Which emotions were most easily detected, and which were difficult? Why?
+22. Did the model show any bias toward certain speakers or genders?
+23. How did the model perform on real-time microphone input compared to dataset input?
+24. What are some real-world applications of your speech emotion recognition system?
+25. What future improvements can be made for better generalization of the speech model?
